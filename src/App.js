@@ -1,8 +1,18 @@
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 function App() {
   return (
-    <div className="App">
-      <p>Costs</p>
-    </div>
+    <Route>
+      
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+      </ul>
+      <Switch>
+
+      </Switch>
+      <p>Footer</p>
+    </Route>
   );
 }
 
